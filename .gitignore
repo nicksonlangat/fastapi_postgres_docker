@@ -1,0 +1,37 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual Environment
+venv/
+.env
+*.env
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+
+# IDEs
+.idea/
+.vscode/
+
+# Pytest
+.cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Static files (optional, adjust according to your needs)
+static/
+
+# Database files
+*.db
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
